@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            How to embed JS scripts?
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width initial-scale=1.0">
+        <!--
+        when we write:
+         <script>
+            alert("test");
+        </script>
+        like above it takes sometime to load the script so its best practice to take the script from other folder and call
+        -->
+        <!-- The below lines executes script from another folder-->
+         <script src="Java Script Files/Alertscript.js" defer></script>
+    </head>
+    <body>
+        <div>To do content</div>
+        <!--
+        The below way showsthe script gets loaded post content but above where script gets loaded first then content:
+         <script src="Java Script Files/Alertscript.js"></script>
+        -->
+    </body>
+</html>

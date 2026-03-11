@@ -1,0 +1,64 @@
+Where we use Js ?
+
+JS is just like a bridge for data abse and UI.
+
+HTML,Java script were connected for browser .
+
+HTML is created to connect Java script.
+
+How to embed js code internally in HTML ?
+we need to type <script>your code </script> inside .html file
+ex: we have written a alert command below the meta in html form where we can use an popup coming everytime when user trys to interact with browser/website.
+
+How to import JS file into html ?
+type inside html <script src="js file name"></script>
+
+Note: Its always good to call script as seperate compare to above one because it takes less time to load.
+
+
+Now we can Call above script methods inside body and outside body as well inside html.
+1) If we call inside body it will load content first and then script but it creates some disturbance.
+2)If we load the data outside body then the script executes first then content will appear but if script is heavy user need to wait more time.
+
+so the good option is use async word wwhen we call script before body this makes both body and script load at same time.
+ex: <script src="js file path",async><script/>
+
+But if we use async if we have more than one scripts but t some point of time script 3 should execute post script 2 but if we use async it loads all at parallel.
+
+So, in this way we can use defer which is same as async but its gonna make one by one scripts and wait.
+
+Note: So using defer inside script is the best solution.
+
+**It is not recommended to create more JS files as it slows down the server and takes long time to respond sometimes even to connect also tkaes more time.
+
+
+Variables in JS:
+var is a keyword represents varibales
+example of variables:
+var x = 5;
+var y = 6;
+alert(x+y);
+
+Note: semi column is a good idea to keep but not needed necessarily as part of syntax.
+
+ex: 
+Var VAT = 23;
+Var vat = 20;
+both above were different.The name of the variable matters.
+**We cannot start variable with number.
+**we can't use as the name keywords.
+**we should not use the spaces for variables where it does not work.
+**Do not use operators in names.
+
+//Types of variables:
+1)numbers=integres
+2)string--Contnious characters {to represent stirng say in "" or '' inside quotes}
+3)boolean--true/false
+4)Arrays,objects
+5)null -->which means null intially nothing is there
+
+constant: (unchangable after setting first value)
+Use const key word before defining.
+Remeber to use everytime captial letters for constant variable.
+
+

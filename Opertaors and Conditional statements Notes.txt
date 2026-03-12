@@ -1,0 +1,36 @@
+Operators:
+-->characters used to operate on variables
+***Arthenmatic operators:
++--Adding numbers an merging strings
+- subraction
+*--multiplication
+/--dividng
+%-the remainder of division
+=--assigning value
++=,-=,\=,*=,%=
+++--incremental,--decremental
+
+Relational Operators:
+-->These were also called comparison opertaors
+==--->equals sign
+===--->Identical and variables must be same type too
+!=-->not euquals too
+>,<,>=,<=
+
+logical operators:
+0--false,1--true
+!--NOT
+Ex: !(0)--true,!(1)--false
+||--or OR and &&--and condtion AND
+
+Condtional statements:
+if,eslseif,else
+-->if we write same codntions cin a line it executes everything line by line.
+ 
+ Shortehand conditional operator(?:)
+ 
+ (expression) ? return_if_the expressionis true:return if expression is false;
+ 
+ SWitch statement:
+ Only use it when it is necessary and many cases to check
+

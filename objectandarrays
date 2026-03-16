@@ -1,0 +1,53 @@
+Objects:
+Objects are contianers for sotring variables and functions (we cna call as methods also)
+--thematically related to each other for easier reusing.
+
+here variables called as properties
+
+ex: builf in  objects: 1) Array,function,dateview etc..,
+--even DM is also an example for an object where document is there inside DOM.
+
+we can refer like document.propertie 
+ex:dopocument.getelementbyid("test);
+
+class:
+class is a form of creating objects.
+-->A form like that is used to collect objects into one class
+-->you can create beaucse of it many different from each other
+-->but while cretaing with same proeprties and methods
+
+-->functions will acts as constructors/classes.
+
+-->we can edit objects properties inside and outside even by using predefined properties as well.
+ex: person.prototype.propertyname = value;
+
+where the abpove example updates the function constructor.
+
+-->Arrays:
+
+--->These are series of values next to each other.,
+-->arrays are containers for values.
+
+-->we can access array's using indexs.
+ex: 
+when we try to access product values from data base
+
+Associative arrays:
+-->we wont use index to access values.
+-->>we use values.
+-->Associative arrays are objects in JS.
+
+--Array methods:
+1)join method used to join elements by arguments
+2)length-->length of array 
+3)concat-->used to connect arrays like two 
+4)Pop-->renove elements
+5)push-->add element
+6)shift-->removin the first element
+7)unshift-->moving all elements array by 1 and adding a new element at the beginning
+8)sort-->sorting array
+9)reverse-->reversing an array
+10)slicing-->it means if we want some portion it brings that value
+11)splicing-->needed two args 
+for first arg how many elements i wnat to remove
+arg2 optional arg how many want to be added after positon of arg1

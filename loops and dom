@@ -1,0 +1,57 @@
+Loops:
+-->Executes a block of code as much we want.
+**while loop:
+while()
+{
+--code
+}
+
+**do-while:
+do{
+--code}
+while()
+{
+--code}
+
+**for loops:
+
+for(intilization;condtion;increment/decrement)
+{
+---code
+}
+
+**Break and Continue:
+
+-->if you do notwant to execute next lines use break
+-->if we use continue that line wont executes remaining wil get executes.
+
+
+**for in lloops:
+for (property in ){
+--code
+}
+-->we can go through all of the objects and get it if we use for in loop
+
+**arguemnts object:
+-->we can use arguemnts as an opbject and get liist what we need.
+ex:aruguments.length;
+
+
+
+DOM:
+-->Document object model is unviresal for all browsers.
+-->we have methods for retrving,deleting,adding etc..,
+-->allows us to change things dynamically
+-->even we can restrict also using DOM.
+1)Nodename
+2)node value
+3)parent node4)child nodes
+5)first child
+6)last child
+
+queryselector()-->requesting something from document--RETURNS SINGLE VRAIABLE
+queryselectorll()-->getting all elements--RETURNS ARRAY
+
+**styles in dom:
+
+-->use .style method to change style

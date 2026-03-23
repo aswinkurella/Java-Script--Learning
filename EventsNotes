@@ -1,0 +1,44 @@
+Events:
+-->things that happens in our website
+-->when we wnat to execute functions if something happens on our website which is called event.
+-->An interaction of website which is called event.
+-->events were actions picked up by web users.
+-->our HTML will be DHTML which dynamic html.
+-->we should create anonymus function and wthen assign to events then only it will work .
+==>even if we call directly the function it wont work.
+
+-->we need to access proeprties of element if we want to do events in functions.
+
+
+important methods:
+onmouseover
+onmouseclick
+onload
+addevent
+removeevent
+
+-->we an stop invoking aprent alerts if we have tags inside tags by using event.propagation method in JS.
+
+**prevent and stop:
+
+-->prevent used for validations
+
+
+**Mouse events:
+pnmouseover
+onmouseout
+onmousemove
+onmousedown
+onmouseup
+onclikc
+ondblclick
+
+
+
+**we can use methods like for time:
+settimeout
+setinterval
+cleartimeout
+clear interval
+
+
